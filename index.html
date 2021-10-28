@@ -5,40 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Cancellation Reservation</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <h1>Cancellation reservation</h1>
-        <h2>Last minute beauty appointments in one place</h2>
+        <h3>Headquarters for professional beauty services in a pinch</h3>
     </header>
 
     <main>
-        <p>Keep up with cancellations your stylist has available or find 
+        <section class="page-description">
+        <h2>Keep up with your stylist's cancellations or find 
             appointments just in time for that last minute event this weekend!
-        </p>
+        </h2>
+        </section>
 
-        <br>
-
-        <div class="State-Pa"></div>
+        <div class="State">
             <h3>Pennsylvania</h3>
-                <div class="pa-cities">
-                    <div class= "city-box">
-                    <a href="#">Philadelphia</a>
-                    </div>
-                    <div class= "city-box">
-                    <a href="salon list/stylist profiles/Pittsburgh-PA-salon-list.html">Pittsburgh</a>
-                    </div>
-                </div>
+            <div class="dropdown">
+                <label for="cities-content">Cities</label>
+                <select name="cities-content" id="cities-content">
+                    <option value= "Pittsburgh"><a href=
+                    "salon list/stylist profiles/Pittsburgh-PA-salon-list.html">Pittsburgh</option>
+                    <option value="Philadelphia"><a href=
+                        "salon list/stylist profiles/Philadelphia-PA-salon-list.html">
+                    </a>Philadelphia</option>
+                </select>
+            </div>
         </div>
-
-        
-
-        <div class="State-WY">
+            
+        <section class="State">
             <h3>Wyoming</h3>
-                <div class="WY-cities">
-                    <a href="salon list/stylist profiles/Powell-WY-salon-list.html">Billings</a>
+                <div class="dropdown">
+                    <label for="cities-content">Cities</label>
+                    <select name="cities-content" id="cities-content">
+                        <option value= "Powell"><a href=
+                            "salon list/stylist profiles/Powell-WY-salon-list.html">Billings</option>
+                        <option value=""><a href=
+                            "">
+                        </a></option>
+                    </select>
                 </div>
-        </div>
+        </section>
     </main>
     <footer>
         <address>

@@ -350,9 +350,4 @@ MigrationBackup/
 .ionide/
 
 # picture files
-.ai
-.jpeg
-.png
-.gif
-.psd
-.jpg
+graphics/
