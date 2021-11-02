@@ -53,7 +53,7 @@
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY', Verdana, Tahoma, sans-serif;
+    font-family: 'Hoyle PERSONAL USE ONLY Thin', Verdana, Tahoma, sans-serif;
     src: url('HoylePERSONALUSEONLY-Thin.woff2') format('woff2'),
         url('HoylePERSONALUSEONLY-Thin.woff') format('woff');
     font-weight: 100;
@@ -62,7 +62,7 @@
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY', Verdana, Tahoma, sans-serif;
+    font-family: 'Hoyle PERSONAL USE ONLY Regular Italic', Verdana, Tahoma, sans-serif;
     src: url('HoylePERSONALUSEONLY-RegularItalic.woff2') format('woff2'),
         url('HoylePERSONALUSEONLY-RegularItalic.woff') format('woff');
     font-weight: normal;
@@ -80,7 +80,7 @@
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY Thin It', Verdana, Tahoma, sans-serif;
+    font-family: 'Hoyle PERSONAL USE ONLY Thin Italic', Verdana, Tahoma, sans-serif;
     src: url('HoylePERSONALUSEONLY-ThinItalic.woff2') format('woff2'),
         url('HoylePERSONALUSEONLY-ThinItalic.woff') format('woff');
     font-weight: 100;
@@ -99,7 +99,7 @@ html{
 }
 
 .page-description h2 {
-    font-family: 'hoyle PERSONAL USE ONLY-Thin It', Verdana, Tahoma, sans-serif;
+    font-family: 'hoyle PERSONAL USE ONLY Thin', Verdana, Tahoma, sans-serif;
 }
 /*buttons for state/ cities */
 
