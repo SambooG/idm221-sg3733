@@ -98,16 +98,22 @@ html{
     align-items: center;
 }
 
+.page-description h2 {
+    font-family: 'hoyle PERSONAL USE ONLY-Thin It', Verdana, Tahoma, sans-serif;
+}
+/*buttons for state/ cities */
+
 .dropdown_div {    
     position: relative;    
     display: inline-block;}
 
 .dropdown_button {    
-    background-color: #5961D4; /* button background colour */    
+    background-color: #494549; /* button background colour */    
     color: #ffffff;    
     padding: 14px;    
     font-size: 16px;    
     border: none;    
+    border-radius: 10px;
     cursor: pointer;
 }
 /* Button function */
@@ -130,7 +136,7 @@ html{
         }
 
             .dropdown_content a:hover {    
-                background-color: #9594A1; /* dropdown items hover - change background colour */
+                background-color: #a194a0; /* dropdown items hover - change background colour */
             }
 
                 .dropdown_div:hover .dropdown_content {    
@@ -138,7 +144,7 @@ html{
                 }
 
                 .dropdown_div:hover .dropdown_button {    
-                    background-color: #492FA1; /* button hover - change background colour */
+                    background-color: #302e30; /* button hover - change background colour */
                 }
 
                     p{    
