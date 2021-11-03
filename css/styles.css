@@ -1,105 +1,109 @@
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Bold.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-Bold.woff') format('woff');
+    font-family: 'Hpfont bold', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Black.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-Black.woff') format('woff');
+    font-family: 'Hpfont black', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-Black.woff2') 
+    format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY Bold It', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-BoldItalic.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-BoldItalic.woff') format('woff');
+    font-family: 'hp font bold it', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-BoldItalic.woff2') 
+    format('woff2');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Medium.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-Medium.woff') format('woff');
+    font-family: 'hpfont med', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-Medium.woff2') 
+    format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY Medium It', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-MediumItalic.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-MediumItalic.woff') format('woff');
+    font-family: 'Hp font medium it', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-MediumItalic.woff2') 
+    format('woff2');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY Black It', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-BlackItalic.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-BlackItalic.woff') format('woff');
+    font-family: 'hpfont black it', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-BlackItalic.woff2') 
+    format('woff2');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY Thin', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Thin.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-Thin.woff') format('woff');
+    font-family: 'pfont thin', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-Thin.woff2') 
+    format('woff2');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
+    
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY Regular Italic', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-RegularItalic.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-RegularItalic.woff') format('woff');
+    font-family: 'hpfont regular italic', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-RegularItalic.woff2') 
+    format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Regular.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-Regular.woff') format('woff');
+    font-family: 'hpfont', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-Regular.woff2') 
+    format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Hoyle PERSONAL USE ONLY Thin Italic', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-ThinItalic.woff2') format('woff2'),
-        url('HoylePERSONALUSEONLY-ThinItalic.woff') format('woff');
+    font-family: 'hpfont thin Italic', Verdana, Tahoma, sans-serif;
+    src: url('HoylePERSONALUSEONLY-ThinItalic.woff2') 
+    format('woff2');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
 }
 
 body {
-    font-family:  'hoyle PERSONAL USE ONLY', Verdana, Tahoma, sans-serif;
+    font-family:  'hpfont', Verdana, Tahoma, sans-serif;
+
 }
 
 html{
     background-color:rgb(251, 225, 238);
-    display:flex;
-    align-items: center;
 }
 
+/*.container {
+}
+*/
 .page-description h2 {
-    font-family: 'hoyle PERSONAL USE ONLY Thin', Verdana, Tahoma, sans-serif;
+    font-family: 'hpfont Thin', Verdana, Tahoma, sans-serif;
+    
+
 }
 /*buttons for state/ cities */
 
