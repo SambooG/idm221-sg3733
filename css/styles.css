@@ -1,110 +1,45 @@
 @font-face {
-    font-family: 'Hpfont bold', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Hpfont black', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Black.woff2') 
-    format('woff2');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'hp font bold it', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-BoldItalic.woff2') 
-    format('woff2');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'hpfont med', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Medium.woff2') 
-    format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Hp font medium it', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-MediumItalic.woff2') 
-    format('woff2');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'hpfont black it', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-BlackItalic.woff2') 
-    format('woff2');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'pfont thin', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Thin.woff2') 
-    format('woff2');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-    
-}
-
-@font-face {
-    font-family: 'hpfont regular italic', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-RegularItalic.woff2') 
-    format('woff2');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'hpfont', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-Regular.woff2') 
+    font-family: 'manrope';
+    src: url('Manrope.woff2') 
     format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'hpfont thin Italic', Verdana, Tahoma, sans-serif;
-    src: url('HoylePERSONALUSEONLY-ThinItalic.woff2') 
+/*@font-face {
+    font-family: 'oliver bold';
+    src: url('Oliver\ Bold.woff2') 
     format('woff2');
-    font-weight: 100;
-    font-style: italic;
+    font-weight: bold;
+    font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'oliver light';
+    src: url('Oliver\ Light.woff2') 
+    format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*/
 
 body {
-    font-family:  'hpfont', Verdana, Tahoma, sans-serif;
-
-}
-
-html{
     background-color:rgb(251, 225, 238);
+    font-family: 'manrope', Verdana, Tahoma, sans-serif;
 }
+
 
 /*.container {
 }
 */
-.page-description h2 {
-    font-family: 'hpfont Thin', Verdana, Tahoma, sans-serif;
+/*.page-description {
+   
     
 
-}
+}*/
 /*buttons for state/ cities */
 
 .dropdown_div {    
@@ -115,7 +50,7 @@ html{
     background-color: #494549; /* button background colour */    
     color: #ffffff;    
     padding: 14px;    
-    font-size: 16px;    
+    font-size: 1rem;    
     border: none;    
     border-radius: 10px;
     cursor: pointer;
@@ -152,11 +87,13 @@ html{
                 }
 
                     p{    
-                        font-family:Arial;
+                        
                     }
 
                     h2{    
-                        font-family:Arial;
+                        
                     }
 
                     /* Button function */
+
+                    
