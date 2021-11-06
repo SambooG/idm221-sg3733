@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'manrope';
-    src: url('Manrope.woff2') 
-    format('woff2');
-    font-weight: normal;
+    src: url('../css/Manrope[wght].ttf') 
+    format('truetype');
+    font-size: 100%;
+    font-weight: 100 900;
     font-style: normal;
-    font-display: swap;
 }
 
 /*@font-face {
@@ -29,6 +29,8 @@
 body {
     background-color:rgb(251, 225, 238);
     font-family: 'manrope', Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+
 }
 
 
@@ -41,19 +43,26 @@ body {
 
 }*/
 /*buttons for state/ cities */
+.state_dropdown{
+    margin: 1rem auto;
+}
 
 .dropdown_div {    
     position: relative;    
-    display: inline-block;}
+    display: block;
+    margin: 1rem auto;
+}
 
 .dropdown_button {    
-    background-color: #494549; /* button background colour */    
-    color: #ffffff;    
-    padding: 14px;    
-    font-size: 1rem;    
-    border: none;    
-    border-radius: 10px;
+    background-color: #494549; /* button background colour */        
+    border-radius: 7px;
     cursor: pointer;
+    color: #ffffff;    
+    font-size: 1rem;    
+    font-weight: 700;
+    padding: 1rem;    
+    width: 12rem;
+    text-align: center;
 }
 /* Button function */
 
@@ -64,14 +73,18 @@ body {
         width: 100%; /* can remove this if you want to make the menu wider/narrower  */    
         /* min-width: 180px; can add this if you need to change the minimu width of menu */    
         box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.3);
+        z-index: 1;
     }
 
         .dropdown_content a {    
-            font-family:Arial;    
+            font-family: 'manrope';    
             color: #000000;    
-            padding: 12px 18px;    
-            text-decoration: none;    
             display: block;
+            padding: 1rem;
+            text-align: center;    
+            
+            text-decoration: none;    
+            
         }
 
             .dropdown_content a:hover {    
@@ -80,6 +93,7 @@ body {
 
                 .dropdown_div:hover .dropdown_content {    
                     display: block;
+                    width: 13rem;
                 }
 
                 .dropdown_div:hover .dropdown_button {    
