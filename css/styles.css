@@ -7,24 +7,6 @@
     font-style: normal;
 }
 
-/*@font-face {
-    font-family: 'oliver bold';
-    src: url('Oliver\ Bold.woff2') 
-    format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'oliver light';
-    src: url('Oliver\ Light.woff2') 
-    format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-*/
 * {
     Box-sizing: border-box;
 } 
@@ -174,35 +156,93 @@ footer{
     width: 100%;
 }
 
+.footer p,a{
+    margin:.5rem;
+}
+
 
 
 /*salon list divs*/
 
-.profile-container{
-    margin: 1rem;
+div.provider p{
+    margin:.5rem 0 .5rem .5rem;
 }
 
-.ul-availability{
-    padding: 0;
+p span{
+    font-weight: 550;
 }
-                    
+
+.profile-container{
+    background-color: rgba(251, 251, 251, 0.5);
+    border-radius: .3rem;
+    box-shadow: whitesmoke;
+    margin: 1rem;
+    padding:.5rem;
+}
+
+.business-title h3{
+    margin: .5rem 0 .5rem 0;
+}
+
+.provider-photo{
+    margin-left: .5rem;
+}
+
+.provider-photo img{
+border-radius: .3rem;
+}
+
+/*.ul-availability */
+
+.ul-availability{
+    padding: 0 0 0 .25rem;
+}
+
+
+.day{
+    font-size: 1.225rem;
+    font-weight: 800;
+}
+
+.time{
+    font-weight: 750;
+}
+
+.svc span{
+    font-weight: 550;
+}
+
+/* */
+
 .photos-grid{
     display:flex;
     flex-wrap: wrap;
     margin: 1rem 3.6rem;
-    
+    padding: .5rem 0 .5rem;
 }
 
 div.client-img{
     /*flex: 50%;*/
     padding: .125rem .25rem;
     max-width: fit-content;
+    border-radius: .3rem;
 }
 
 figure{
     margin:0;
-    
-    
+}
 
+.weeks-appointments{
+    Margin: 1rem 0 1rem;
+    padding: .5rem 0 .5rem;
+}
+
+.weeks-appointments h2{
+    margin: .5rem 0 1rem 1rem;
+}
+
+.contact{
+    margin-left: 1rem;
+    line-height: 1.5rem;
 }
 
