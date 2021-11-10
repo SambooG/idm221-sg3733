@@ -21,11 +21,12 @@ body {
     background-color:rgb(245, 230, 238);
     font-family: 'manrope', Verdana, Tahoma, sans-serif;
     font-weight: 400;
-    color:rgb(43, 40, 42)
+    color:rgb(43, 40, 42);
 }
 
 .heading{
     margin-left: 1rem;
+    line-height: 1.4rem;
 }
 
 h1{
@@ -173,9 +174,9 @@ p span{
 }
 
 .profile-container{
-    background-color: rgba(251, 251, 251, 0.5);
+    background-color: rgba(251, 251, 251, 0.3);
     border-radius: .3rem;
-    box-shadow: whitesmoke;
+    box-shadow: .25rem .25rem rgba(199, 198, 198, .5);
     margin: 1rem;
     padding:.5rem;
 }
@@ -192,16 +193,18 @@ p span{
 border-radius: .3rem;
 }
 
-/*.ul-availability */
+/*.ul-availabiity */
 
 .ul-availability{
     padding: 0 0 0 .25rem;
+    line-height: 1.5rem;
 }
 
 
 .day{
     font-size: 1.225rem;
     font-weight: 800;
+    line-height: 1.75rem;
 }
 
 .time{
@@ -243,6 +246,19 @@ figure{
 
 .contact{
     margin-left: 1rem;
+}
+
+.phone a{
+    color:rgb(43, 40, 42);
     line-height: 1.5rem;
+    padding: .5rem 0 .5rem 0;
+    text-decoration: none;
+}
+
+.phone a:hover{
+    color:blue;
+}
+.address a:visited{
+    color:purple;
 }
 
