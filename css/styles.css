@@ -11,25 +11,46 @@
     Box-sizing: border-box;
 } 
     
+.address a:visited{
+    color:purple;
+}
+
+a.business-title-link {
+   font-size:.875rem;
+   padding-top: .5rem;
+   margin-top: .25rem;
+}
+
+.banner-photo{
+    opacity: .2;
+}
+
+body {
+    background-color:rgb(245, 230, 238);
+    background: rgba(249, 249, 249, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(249, 249, 249, 1.0), rgba(249, 190, 247, .5));
+    background: -moz-linear-gradient(top left, rgba(249, 249, 249, 1.0), rgba(249, 190, 247, 1.0));
+    background: linear-gradient(to bottom right, rgba(249, 249, 249, 1.0), rgba(249, 190, 247, 1.0));;
+    font-family: 'manrope', Verdana, Tahoma, sans-serif;
+    color: #443f42;
+    font-weight: 400;
+}
+
 .container{
     position:relative;
     min-height: 100vh;
     padding-bottom: 2.5rem;
 }
 
-body {
-    background-color:rgb(245, 230, 238);
-    font-family: 'manrope', Verdana, Tahoma, sans-serif;
-    font-weight: 400;
-background: rgba(249, 249, 249, 1.0);
-    background: -webkit-linear-gradient(top left, rgba(249, 249, 249, 1.0), rgba(249, 190, 247, 1.0));
-    background: -moz-linear-gradient(top left, rgba(249, 249, 249, 1.0), rgba(249, 190, 247, 1.0));
-    background: linear-gradient(to bottom right, rgba(249, 249, 249, 1.0), rgba(249, 190, 247, 1.0));;
+div.card-container div.photos-grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
 }
 
-.heading{
-    margin-left: .5rem;
-    line-height: 1.4rem;
+div.client-img{
+    margin: .125rem .25rem;
+    border-radius: .3rem;
 }
 
 h1 {
@@ -38,6 +59,7 @@ h1 {
     margin-bottom: .25rem;
     text-align: left;
 }
+
 h1 a{
     color: inherit;
     cursor:pointer;
@@ -48,11 +70,19 @@ h1 a{
     text-decoration: none;
 }
 
+h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.heading{
+    margin-left: .5rem;
+    line-height: 1.4rem;
+}
 .heading h2{
     font-size: .875rem;
     font-weight: 500;
     margin: .25rem;
-    color: rgb(68, 63, 66);
 }
 
 .heading h2 span{
@@ -61,28 +91,7 @@ h1 a{
 
 .heading h4{
     text-align: center;
-}
-
-h3{
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-
-
-.page-description{
-    border-radius: .5rem;
-    box-shadow: .275rem .275rem .625rem .275rem rgba(62, 32, 46, 0.5);
-   line-height: 1.3rem;
-   margin: 1rem 1rem .5rem 1rem ;
-   text-align: center;
-   padding: .5rem;
-}
-
-
-
-.page-description span{
-    font-weight: 650;
+    color: hsl(188, 65%, 54% );
 }
 
 /*buttons for state/ cities */
@@ -99,8 +108,18 @@ h3{
     font-weight: 600;
     text-align: center;
 }
+.card-container{
+    background: rgb(248, 234, 245, .7);
+    border-radius: .5rem;
+box-shadow: .275rem .275rem .625rem .275rem rgba(62, 32, 46, 0.5);
+    margin: 1rem;
+    padding:.5rem;
+}
 
-
+.card-container p{
+    font-size: .875rem;
+    margin: .5rem 0;
+}
 /*.dropdown_container{
     background: rgba(236, 231, 234, 0.75);
     border-radius: .5rem;
@@ -113,7 +132,6 @@ h3{
     position: relative;    
     display: block;
     margin: 1rem;
-    
 }
 
 .dropdown_button {    
@@ -121,13 +139,13 @@ h3{
     border-radius: .3rem;
     box-shadow: .2rem .2rem hsl(188, 65%, 54%, .25 );/*box's shadow*/
    /*cursor: pointer; doesn't seem to work. */
-    color: #f7f5f7;    
+    color: rgb(247, 245, 247);    
     font-size: 1rem;    
     font-weight: 700;
     margin: 0 auto;
     text-shadow: .04rem .03rem rgb(136, 133, 135);
     padding: .75rem;    
-    width: 14rem;
+    width: 12rem;
     text-align: center;
 }
 /* Button function */
@@ -141,7 +159,7 @@ h3{
         z-index: 1;
     }
 
-        .dropdown_content a {    
+    .dropdown_content a {    
             color:rgb(68, 63, 66); /*the links and their box styling*/
             font-family: 'manrope';        
             display: block;
@@ -152,110 +170,28 @@ h3{
             
         }
 
-            .dropdown_content a:hover {    
-                background-color: hsl(188, 65%, 54%); /* dropdown items hover - change background colour */
-            }
+    .dropdown_content a:hover {    
+            background-color: hsl(188, 65%, 54%); /* dropdown items hover - change background colour */
+        }
 
-                .dropdown_div:hover .dropdown_content {   
-                    display: block;
-                    margin: 0 auto;
-                    width: 13rem;
-                    box-shadow: .1rem .1rem .1rem rgb(133, 140, 141, .25);
+    .dropdown_div:hover .dropdown_content {   
+        display: block;
+        margin: 0 auto;
+        width: 13rem;
+        box-shadow: .1rem .1rem .1rem rgb(133, 140, 141, .25);
                 }
 
-                .dropdown_div:hover .dropdown_button {    
-                    background-color: rgb(133, 140, 141);
-                    text-shadow: .04rem .02rem rgb(43, 40, 42);
-                    box-shadow: .2rem .2rem rgb(133, 140, 141, .25); /* button hover - change background colour and shadow color*/
+    .dropdown_div:hover .dropdown_button {    
+        background-color: rgb(133, 140, 141);
+        text-shadow: .04rem .02rem rgb(43, 40, 42);
+        box-shadow: .2rem .2rem rgb(133, 140, 141, .25); /* button hover - change background colour and shadow color*/
                 }
 
                     /* Button function */
-footer{
-    bottom:0;    
-    font-size: .75rem;
-    height: 2rem;
-    width: 100%;
-}
-
-.footer p,a{
-    margin:.5rem;
-}
-
-
-
-/*salon list divs*/
-
-p span{
-    font-weight: 550;
-}
-
-.card-container{
-    background: rgb(248, 234, 245, .7);
-    border-radius: .5rem;
-box-shadow: .275rem .275rem .625rem .275rem rgba(62, 32, 46, 0.5);
-    margin: 1rem;
-    padding:.5rem;
-}
-
-.card-container p{
-    font-size: .875rem;
-    margin: .5rem 0;
-}
-
-.business-title h3{
-    margin: .5rem 0 .5rem 0;
-}
-.provider{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.provider-photo{
-    margin: .5rem;
-}
-
-.provider-photo img{
-border-radius: .3rem;
-}
-/*salon list div*/
-
-/*.ul-availabiity */
-
-
-.weeks-appointments .day{
-    font-weight: 700;
-    line-height: 1.5rem;
-    padding:0;
-}
-.weeks-appointments .time{
-    font-weight: 600;
-    padding:0;
-}
-
-.weeks-appointments .svc{
-    padding:0;
-}
-.svc span{
-    color:rgb(169, 4, 45);
-    font-weight: 550;
-}
-
-/* */
-
-div.card-container div.photos-grid{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
-}
-
-div.client-img{
-    margin: .125rem .25rem;
-    border-radius: .3rem;
-}
-
 figure{
     margin:0;
 }
+
 figure :hover{
     /*margin:0;*/
     position:relative;
@@ -266,16 +202,61 @@ figure :hover{
     display:block;
     z-index:999;
 }
-
-.weeks-appointments{
-    font-size: .875rem;
-    line-height: 1.1rem;
-    margin: .5rem;
+                    
+                    
+footer{
+    bottom:0;    
+    font-size: .6875rem;
+    height: 2rem;
+    margin-top: 2rem;
+    width: 100%;
 }
 
+.footer p,a{
+    margin:.5rem;
+    color: inherit;
+    text-decoration: none;
+}
 
-/*.contact
-}*/
+p span{
+    font-weight: 550;
+}
+
+.page-description{
+    border-radius: .5rem;
+    box-shadow: .275rem .275rem .625rem .275rem rgba(62, 32, 46, 0.5);
+    line-height: 1.3rem;
+    margin: 1rem 1rem .5rem 1rem ;
+    text-align: center;
+    padding: .5rem;
+}
+
+.page-description span{
+    font-weight: 650;
+}
+
+.page-opening{
+    margin: 1rem 1rem 0 0;
+    position:relative;
+}
+
+.page-opening h3{
+    color:rgb(190, 12, 101);
+    font-weight: 700;
+    position:absolute;
+    text-shadow: 0 .1rem .1rem rgba(110, 5, 75, 0.7);
+    left: 1rem;
+    top: 1rem;
+}
+
+.page-opening p{
+    font-size: .875rem;
+    font-weight: 500;
+    position:absolute;
+    text-shadow: 0 .05rem .05rem rgba(110, 5, 75, 0.7);
+    left: 5rem;
+    top: 7rem;
+}
 
 .phone, .contact a{
     color:rgb(43, 40, 42);
@@ -289,7 +270,44 @@ figure :hover{
     color:blue;
     cursor:pointer;
 }
-.address a:visited{
-    color:purple;
+
+.provider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.provider-photo img{
+border-radius: .3rem;
+}
+
+.provider-photo{
+    margin: .5rem;
+}
+
+.svc span{
+    color:rgb(169, 4, 45);
+    font-weight: 550;
+}
+
+.weeks-appointments{
+    font-size: .875rem;
+    line-height: 1.1rem;
+    margin: .5rem;
+}
+.weeks-appointments .day{
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding:0;
+    color:  hsl(188, 65%, 54% );
+}
+.weeks-appointments .time{
+    font-weight: 600;
+    padding:0;
+}
+
+.weeks-appointments .svc{
+    padding:0;
+}
+
 
