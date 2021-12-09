@@ -206,18 +206,6 @@ h2 span{
 p span{
     font-weight: 600;
 }
-
-.page-description{
-    border-radius: .5rem;
-    box-shadow: .275rem .275rem .625rem .275rem rgba(62, 32, 46, 0.5);
-    line-height: 1.3rem;
-    margin: 1rem 1rem .5rem 1rem ;
-    text-align: center;
-    padding: .5rem;
-}
-
-.page-description span{
-    font-weight: 800;
 }
 
 .phone, .contact a{
