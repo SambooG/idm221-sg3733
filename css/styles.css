@@ -17,18 +17,13 @@
 
 a.business-title-link{
    color:inherit;
-   font-size: 1rem;
+   font-size: 1.21rem;
+   font-weight: 600;
    margin:.5rem 0 .5rem 0;
    padding-top: .5rem;
    text-align: center;
    text-decoration: none;
 }
-
-.business-title{
-    margin:.5rem;
-}
-
-
 
 body {
     background: -webkit-linear-gradient(top left, rgba(249, 249, 249, 1.0), rgba(249, 190, 247, .5));
@@ -37,6 +32,10 @@ body {
     font-family: 'manrope', Verdana, Tahoma, sans-serif;
     color: #443f42;
     font-weight: 400;
+}
+
+.business-title{
+    margin:.5rem;
 }
 
 .button_div {    
@@ -55,7 +54,7 @@ body {
     color: rgb(247, 245, 247);    
     font-size: 1rem;    
     font-weight: 700;
-    margin-top: .5rem;
+    margin: .5rem 0 1rem 0;
     padding: .75rem;    
     text-align: center;
     text-shadow: .04rem .03rem rgb(136, 133, 135);
@@ -80,15 +79,11 @@ body {
     transition: .5s;
 }
 
-.container{
-    position:relative;
-    min-height: 100vh;
-}
 
 .card-container h3{
     color:  rgb(68, 63, 66);
     margin:0 0 .5rem 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 }
@@ -102,6 +97,11 @@ body {
 
 .card-container p{
     margin: .5rem 0;
+}
+
+.container{
+    position:relative;
+    min-height: 100vh;
 }
 
 .date-range{
@@ -129,7 +129,7 @@ div.card-container div.photos-grid{
 }
 
 figure{
-    margin:0;
+    margin:.25rem;
 }               
                     
 .footer{
@@ -148,12 +148,6 @@ footer a{
 
 }
 
-h1 a{
-    color: rgb(202, 18, 147);
-    cursor:pointer;
-    margin: .5rem 1rem .5rem 1rem;
-    text-decoration: none;
-}
 
 h1{
     color: rgb(202, 18, 147);
@@ -164,9 +158,14 @@ h1{
     text-shadow: 0 .05rem .05rem rgba(86, 2, 97, 0.8);
 }
 
+h1 a{
+    color: rgb(202, 18, 147);
+    content: inherit;
+    cursor:pointer;
+    text-decoration: none;
+}
 .heading{
     color: rgb(115, 4, 167);
-    /*background: rgb(140, 8, 201);*/
     margin: 1rem 2rem;
 }
 
@@ -175,19 +174,17 @@ h1{
     font-weight: 500;
     margin: .5rem;
     text-align: center;
+    text-shadow: 0 .025rem .025rem rgba(86, 2, 97, 0.8);;
 }
 
-.heading span{
+h2 span{
     font-weight: 900;
 }
 
 .home-photo{
-    
     opacity: .85;
     width: 100%;
 }
-
-
 
 .main-home-div{
     margin: 1.5rem 0 0 0;
@@ -206,8 +203,9 @@ h1{
     z-index: 10;
 }
 
+/* In the title */
 p span{
-    font-weight: 550;
+    font-weight: 600;
 }
 
 .page-description{
@@ -220,8 +218,9 @@ p span{
 }
 
 .page-description span{
-    font-weight: 650;
+    font-weight: 800;
 }
+
 .phone, .contact a{
     color:rgb(43, 40, 42);
     font-size: .875rem;
@@ -249,9 +248,11 @@ border-radius: .1rem;
     margin: .5rem;
 }
 
+/* in appointments div*/
 .svc span{
     color:rgb(169, 4, 45);
-    font-weight: 550;
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 .title{
@@ -260,28 +261,38 @@ border-radius: .1rem;
     justify-content:space-evenly;
     flex:none;
     width:100%;
+}
 
+/* Cannot for the life of me remove the
+padding on Billings pg */
+ul.ul-availability, ol{
+    padding: 0;
+    padding-inline-start: 0;
 }
 
 .weeks-appointments{
     line-height: 1.4rem;
     margin: .5rem;
+    max-width: 100%;
 }
+
 .weeks-appointments .day{
-    font-weight: 700;
-    line-height: 1.4rem;
-    padding:0;
-    color:  hsl(188, 65%, 54% );
+    font-size: 1.21rem;
+    font-weight: 800;
+    line-height: 1.6rem;
+    color:  rgb(115, 4, 167);
+    
+    text-align: left;
 }
+
 .weeks-appointments .time{
-    font-weight: 600;
-    padding:0;
+    font-weight: 650;
+  
 }
 
 .weeks-appointments .svc{
-    padding:0;
+    margin-bottom: .25rem;
 }
 
-ul.availability{}
 
 
